@@ -4,6 +4,6 @@
     {
         Active,
         Paused,
-        Deleted
+        Archived
     }
 }

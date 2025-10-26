@@ -24,7 +24,7 @@ namespace Appnext_AdCampaign.Controllers
         }
 
         [ApiKey]
-        [HttpPost("{id}")] // Can be patch since we are updating a resource partially
+        [HttpPost("{id}/status")] // Can be patch since we are updating a resource partially
         public async Task<ActionResult> PostCampaignById(int id, CampaignWriteModel request)
         {
             // To stimulate delay
